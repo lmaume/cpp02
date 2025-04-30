@@ -6,7 +6,7 @@
 #    By: lmaume <lmaume@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/06 15:13:38 by lmaume            #+#    #+#              #
-#    Updated: 2025/04/30 18:40:57 by lmaume           ###   ########.fr        #
+#    Updated: 2025/04/30 19:54:59 by lmaume           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ SRCS =	main.cpp	\
 
 CXX = c++
 
-CXXFLAGS = -Wall -Wextra -g3 -std=c++98 #-Werror
+CXXFLAGS = -Wall -Wextra -Werror -g3 -std=c++98
 
 RM = rm -f
 

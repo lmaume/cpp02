@@ -5,7 +5,7 @@
 #include <iomanip>
 #include <cctype>
 #include <limits.h>
-#include <math.h>
+#include <cmath>
 
 class Fixed
 {

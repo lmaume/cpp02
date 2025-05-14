@@ -60,13 +60,13 @@ const Fixed&	Fixed::max(const Fixed& a, const Fixed& b)
 }
 Fixed&	Fixed::min(Fixed& a, Fixed& b)
 {
-	if (a.getRawBits() > b.getRawBits())
+	if (a.getRawBits() < b.getRawBits())
 		return a;
 	return b;
 }
 const Fixed&	Fixed::min(const Fixed& a, const Fixed& b)
 {
-	if (a.getRawBits() > b.getRawBits())
+	if (a.getRawBits() < b.getRawBits())
 		return a;
 	return b;
 }
